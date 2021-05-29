@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\datacontroller;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/petugas',[datacontroller::class,'index']);
+Route::get('/petugas/cari', [datacontroller::class, 'cari']);
+Route::get('/petugas/lain',[datacontroller::class,'join']);
+Route::get('/petugas/iya',[datacontroller::class,'masuk']);
