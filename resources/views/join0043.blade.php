@@ -1,6 +1,6 @@
 <a href="/petugas" class="text-sm text-gray-700 underline">Klik disini</a>
     <body>
-    <h3>Risma Auna (1461900039)</h3>
+    <h3>M Rizky Sulistyawan (1461900043)</h3>
     <h3>Data Anggota dengan Inner Join</h3>
     <p>Cari anggota :</p>
     <form action="/petugas/cari" method="GET">
